@@ -1,0 +1,74 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, rgb(94, 130, 118), #11064f);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.task-container {
+  text-align: center;
+  background-color: rgb(234, 238, 241);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+h1 {
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: lightsteelblue;
+  border-radius: 20px;
+}
+
+li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 13px;
+}
+
+li button.edit {
+  background-color: rgb(90, 98, 167);
+}
+
+li button.done {
+  background-color: rgb(57, 68, 165);
+}
+
+li button.delete {
+  background-color: rgb(50, 39, 171);
+}
+
+.text-input {
+  text-align: left;
+}
+
+.text {
+  background-color: white;
+  border-color: lightsteelblue;
+  border-radius: 20px;
+}
+
+.add {
+  background-color: lightsteelblue;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 20px;
+}
