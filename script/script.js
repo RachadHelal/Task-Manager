@@ -11,8 +11,7 @@ function addTask() {
             <button class="edit" onclick="editTask(this)">Edit</button>
             <button class="delete" onclick="deleteTask(this)">Delete</button>
             <button id="toggle" class="done" onclick="markDone(this)">Completed</button>
-            </div>
-        `;
+            </div>`;
     taskList.appendChild(li);
     taskInput.value = "";
   } else {
