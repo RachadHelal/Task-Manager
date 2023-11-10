@@ -1,3 +1,4 @@
+// add task fucntion
 function addTask() {
   let taskInput = document.getElementById("taskInput");
   let taskList = document.getElementById("taskList");
@@ -19,11 +20,13 @@ function addTask() {
   }
 }
 
+// delete function
 function deleteTask(button) {
   let divClass = button.parentNode;
   divClass.parentNode.remove();
 }
 
+// edit funcion
 function editTask(button) {
   let divClass = button.parentNode;
   let span = divClass.parentNode;
@@ -35,6 +38,7 @@ function editTask(button) {
   }
 }
 
+// change background color function
 function markDone(button) {
   button.style.backgroundColor = "red";
 }

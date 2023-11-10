@@ -8,6 +8,7 @@ body {
   height: 100vh;
 }
 
+/* the div container of the tasks */
 .task-container {
   text-align: center;
   background-color: rgb(234, 238, 241);
